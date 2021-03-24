@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, Image, FlatList } from 'react-native';
 import { arrowImage, imageLogo, lineImg } from '../../utils/ImageConstant';
-import scale, { verticalScale } from '../splash/scale';
-
+import scale, {verticalScale} from '../../utils/scale';
 
 export class Terms extends Component {
     constructor(props) {

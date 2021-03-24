@@ -1,6 +1,5 @@
 import { Text, StyleSheet, View } from 'react-native';
-import scale,{verticalScale} from '../splash/scale'
-
+import scale, {verticalScale} from '../../utils/scale';
 export default StyleSheet.create({
     container: {
         flex: 1,

@@ -18,3 +18,4 @@ export const imageCustom  = require('../assets/image-custom.png');
 export const lineImg  = require('../assets/view-rectangle-8.png');
 export const startImage  = require('../assets/group.png');
 export const addTaskImage  = require('../assets/group-2.png');
+export const minImage  = require('../assets/group1.png');

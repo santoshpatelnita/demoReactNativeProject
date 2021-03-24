@@ -6,7 +6,8 @@ import {
     imageGroup, imageMeet, imageCoffee, imageGym, imageFlight, imageDoctor,
     imageVet, imageRent, imageFees, imageActivity, imageCustom
 } from '../../utils/ImageConstant';
-import scale, { verticalScale } from '../splash/scale';
+import scale, {verticalScale} from '../../utils/scale';
+
 class EventScreen extends Component {
     constructor(props) {
         super(props)

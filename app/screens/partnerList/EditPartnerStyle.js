@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import scale, { verticalScale } from '../splash/scale';
+import scale, { verticalScale } from '../../utils/scale';
 
 export default StyleSheet.create({
     container: {
@@ -31,21 +31,23 @@ export default StyleSheet.create({
         height: scale(21),
         marginRight: scale(22)
     },
+
     partnerNameStyle: {
         width: scale(329),
         height: scale(41),
-        marginTop: verticalScale(30),
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         alignSelf: 'center',
+        flexDirection: 'row',
         backgroundColor: '#1a1a1a',
         borderRadius: scale(21),
-
+        marginBottom: verticalScale(10)
     },
+
     partnerNameTextStyle: {
         marginLeft: scale(15),
         color: '#ffffff90',
-        borderRadius: scale(90),
         fontSize: scale(14),
+        alignSelf: 'center'
     },
 
     anotherPartnerStyle: {
@@ -59,10 +61,6 @@ export default StyleSheet.create({
     },
 
     partnerEmailStyle: {
-        // marginBottom: 20,
-        marginTop: 390,
-        // marginEnd:verticalScale(40),
-        // marginBottom: verticalScale(40),
         width: scale(329),
         height: scale(41),
         borderRadius: scale(21),
@@ -70,9 +68,9 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         alignSelf: 'center',
-        flexDirection: 'row'
-
-
+        flexDirection: 'row',
+        bottom: 30,
+        position: 'absolute',
     },
 
     textEmailStyle: {
@@ -81,16 +79,23 @@ export default StyleSheet.create({
         color: '#ffffff60',
         borderRadius: scale(90),
         fontSize: scale(14),
-    },
 
+
+    },
     addButtonStyle: {
-        borderRadius: 51,
-        backgroundColor: '#67ebe1',
         fontSize: scale(14),
         fontWeight: 'bold',
-        textAlign: 'center',
-        marginRight: scale(22)
+        alignItems: 'center',
+        alignSelf: 'center',
+        marginTop: scale(12),
+    },
 
+    touchStyle: {
+        width: 69,
+        height: 41,
+        backgroundColor: '#67ebe1',
+        borderRadius: scale(21),
+        
     }
 
 

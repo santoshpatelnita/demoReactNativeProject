@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Text, View, Image, ImageBackground, TextInput, TouchableHighlightBase, StatusBar, TouchableOpacity } from 'react-native';
-import scale, { verticalScale } from '../splash/scale';
+import scale from '../../utils/scale';
 import styles from './SignUpScreenStyle';
 
 export default class SignUP extends Component {

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, Image, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
 import { arrowImage, imageLogo, startImage } from '../../utils/ImageConstant';
-import scale, { verticalScale } from '../splash/scale';
-
+import scale, {verticalScale} from '../../utils/scale';
 
 export class FeedBackRating extends Component {
     renderHeaderContainer = () => {

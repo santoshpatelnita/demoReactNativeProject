@@ -1,6 +1,6 @@
 import { Text, StyleSheet, View } from 'react-native';
 import { create } from 'react-test-renderer';
-import scale,{verticalScale} from '../splash/scale';
+import scale, {verticalScale} from '../../utils/scale';
 
 export default StyleSheet.create({
     container: {

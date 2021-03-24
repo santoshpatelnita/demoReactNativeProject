@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View,Image,ImageBackground,TextInput,TouchableOpacity } from 'react-native';
-import scale from '../splash/scale';
+import scale, {verticalScale} from '../../utils/scale';
 import styles from './LoginStyle'
-
-
 
 export default class Login extends Component {
 
