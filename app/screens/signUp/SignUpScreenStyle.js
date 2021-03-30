@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import scale, {verticalScale} from '../../utils/scale';
 
 export default StyleSheet.create({

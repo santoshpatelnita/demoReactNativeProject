@@ -19,3 +19,8 @@ export const lineImg  = require('../assets/view-rectangle-8.png');
 export const startImage  = require('../assets/group.png');
 export const addTaskImage  = require('../assets/group-2.png');
 export const minImage  = require('../assets/group1.png');
+export const grocery  = require('../assets/grocery.png');
+export const blackCircle  = require('../assets/blackCircle.png');
+export const downButton  = require('../assets/downSymbol.png');
+export const imgLocation  = require('../assets/image-location.png');
+

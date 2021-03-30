@@ -12,28 +12,13 @@ export default StyleSheet.create({
     flexDirection: 'row',
     marginTop: scale(59),
     justifyContent: 'space-between',
-    marginRight: scale(23),
+    // alignSelf: 'center'
   },
 
   headerText: {
-    color: '#fff',
+    color: '#ffffff',
     fontSize: scale(20),
     fontWeight: 'bold',
-  },
-
-  eventImage: {
-    width: scale(24),
-    height: scale(20),
-    marginLeft: scale(19),
-    alignSelf: 'center',
-  },
-
-  eventText: {
-    color: '#fff',
-    fontSize: scale(14),
-    fontWeight: 'normal',
-    marginLeft: scale(10),
-    alignSelf: 'center',
   },
 
   arrowStylImg: {
@@ -43,8 +28,9 @@ export default StyleSheet.create({
   },
 
   imgLogoStyle: {
-    width: scale(29),
-    height: scale(21),
+    width: scale(23),
+    height: scale(25),
+    marginRight: scale(23),
   },
 
   eventCellContainer: {
@@ -54,19 +40,22 @@ export default StyleSheet.create({
     borderRadius: scale(21),
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: verticalScale(15),
+    alignSelf: 'center',
+    marginTop: verticalScale(10),
+  },
+
+  eventText: {
+    color: '#ffffff90',
+    fontSize: scale(14),
+    fontWeight: 'normal',
+    marginLeft: scale(20),
     alignSelf: 'center',
   },
 
   forwordImage: {
+    marginRight: scale(23),
     width: scale(11),
     height: scale(15),
-    marginRight: scale(23),
     alignSelf: 'center',
-  },
-
-  flatListStyle: {
-    marginBottom: scale(120),
-    marginTop: verticalScale(30),
   },
 });
